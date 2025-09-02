@@ -16,7 +16,6 @@ int main() {
 
     set<int> distinctElements;
 
-    // Insert elements into the set
     for (int i = 0; i < n; i++) {
         distinctElements.insert(arr[i]);
     }

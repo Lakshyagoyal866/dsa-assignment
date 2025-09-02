@@ -44,7 +44,7 @@ int main() {
     cin >> cols;
 
     if (rows > imax || cols > imax || rows <= 0 || cols <= 0) {
-        cout << "Invalid matrix size. Please use values between 1 and " << imax << ".\n";
+        cout << "Invalid matrix size." << imax << ".\n";
         return 1;
     }
 
