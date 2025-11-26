@@ -17,7 +17,6 @@ public:
 
 
 
-// Pre-order: Root -> Left -> Right
 void preOrder(Node* root) {
     if (root == nullptr) return;
     cout << root->data << " ";
@@ -25,7 +24,7 @@ void preOrder(Node* root) {
     preOrder(root->right);
 }
 
-// In-order: Left -> Root -> Right
+
 void inOrder(Node* root) {
     if (root == nullptr) return;
     inOrder(root->left);
@@ -33,7 +32,6 @@ void inOrder(Node* root) {
     inOrder(root->right);
 }
 
-// Post-order: Left -> Right -> Root
 void postOrder(Node* root) {
     if (root == nullptr) return;
     postOrder(root->left);
